@@ -1,0 +1,244 @@
+/* //multiItemCarousel */
+
+/* .rec.rec-arrow{
+    border-radius: 50%;
+}
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+}
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+} */
+
+.sc-iBYQkv {
+  display: none !important;
+}
+
+.ser-inerdiv {
+  background: white;
+  padding: 0.8em 1em;
+  margin: 1em 0.5em;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+  border: 1px solid;
+  border-color: transparent;
+}
+.ser-inerdiv4 {
+  /* height: 40vh; */
+  background: white;
+  padding: 2rem 1.2rem;
+  margin: 7px;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.ser-inerdiv h2 {
+  font-size: 30px;
+  line-height: 28px;
+  transition: all 0.6s ease;
+  color: #333333;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.ser-inerdiv:hover {
+  border-color: #ad35d9;
+  box-shadow: 0px 0px 30px 8px #ad35d940;
+
+  /* box-shadow: 0px 0px 80px 70px #ad35d92e; */
+}
+
+.ser-inerdiv:hover h2 {
+  color: #ad35d9;
+}
+
+.ser-inerdiv p {
+  padding: 0 0 15px 0;
+  margin: 0;
+  font-size: 14px;
+  color: #333333;
+}
+
+/* //multiItemSideCarousel */
+
+.ser-inerdiv2 {
+  background-color: rgb(255, 255, 255);
+  transform: scale(0.6);
+  margin: 1em;
+  /* width: 200px; */
+  border-radius: 20px;
+  transition: all 0.6s ease;
+  border: 1px solid;
+  border-color: transparent;
+  margin-top: 18em;
+  box-shadow: 0 0 20px 1px #ad35d91f;
+}
+
+.ser-inerdiv2 :hover {
+  box-shadow: 0px 0px 30px 8px #ad35d940;
+}
+
+.ser-inerdiv2 img {
+  padding: 1em;
+}
+
+.ser-inerdiv2 .content {
+  padding: 1em;
+}
+
+.second .rec-arrow-left {
+  position: absolute !important;
+  bottom: 22%;
+  transform: scale(0.9);
+  left: 25% !important;
+  color: #ad35d9;
+}
+
+.second .rec-arrow-right {
+  color: #ad35d9;
+  position: absolute !important;
+  bottom: 22%;
+
+  transform: scale(0.9);
+  left: 30% !important;
+}
+
+.third {
+  transform: scale(1);
+  position: relative;
+  margin: 4em 0em 10em 0em;
+}
+
+.third .rec-arrow-left {
+  color: #ad35d9;
+  position: absolute !important;
+  bottom: -50% !important;
+  left: 47%;
+}
+
+.third .rec-arrow-right {
+  color: #ad35d9;
+  position: absolute !important;
+  bottom: -50% !important;
+  left: 52%;
+}
+.fourth {
+  transform: scale(1);
+  /* position: relative; */
+  margin: 4em 2em 10em 2em;
+}
+
+.fourth .rec-arrow-left {
+  /* position: absolute !important; */
+  /* bottom: -50% !important; */
+  /* left: 47%; */
+}
+
+.fourth .rec-arrow-right {
+  /* position: absolute !important; */
+  /* bottom: -50% !important; */
+  /* left: 52%; */
+}
+
+.fourth .ser-inerdiv3 img {
+  width: 90%;
+  border-radius: 5%;
+}
+
+.third .ser-inerdiv3 img {
+  width: 95%;
+  border-radius: 5%;
+}
+.third .ser-inerdivN img {
+  width: 115%;
+  height: 260px;
+  margin-left: -30px;
+  margin-top: -28px;
+  border-radius: 5%;
+}
+
+@media only screen and (max-width: 595px) {
+  .ser-inerdivN2 img {
+    width: 100%;
+    border-radius: 5%;
+  }
+
+  .fourth {
+    transform: scale(0.9);
+    width: 140%;
+margin: 4em 2em 10em -4em;
+  }
+}
+
+.ser-inerdivN2 img {
+  border-radius: 5%;
+  width: 465px;
+}
+.crousal_cont {
+  margin-top: -120px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.slider {
+  transform: scale(0.8);
+}
+.slider .rec-arrow-left {
+  /* visibility: hidden; */
+  color: #ad35d9;
+}
+.slider .rec-arrow-right {
+  /* visibility: hidden; */
+  color: #ad35d9;
+}
+.slider4 {
+  transform: scale(0.7);
+}
+
+.divalign {
+  height: 34vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 595px) {
+ 
+
+.third .rec-arrow-left {
+  color: #ad35d9;
+  position: absolute !important;
+  bottom: -10% !important;
+  left: 33%;
+}
+
+.third .rec-arrow-right {
+  color: #ad35d9;
+  position: absolute !important;
+  bottom: -10% !important;
+  left: 52% !important;
+}
+.second .rec-arrow-left {
+  position: absolute !important;
+  bottom: 27%;
+  transform: scale(0.9);
+  left: 6% !important;
+  color: #ad35d9;
+}
+
+.second .rec-arrow-right {
+  color: #ad35d9;
+  position: absolute !important;
+  bottom: 27%;
+
+  transform: scale(0.9);
+  left: 20% !important;
+}
+}

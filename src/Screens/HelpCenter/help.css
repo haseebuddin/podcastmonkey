@@ -1,0 +1,123 @@
+.shadow{
+    background-image: url("/src/Images/Layer.png");
+    background-size: 100% ;
+     background-repeat: no-repeat; 
+}
+.Help {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Help .firstSection {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.Help h1 {
+    font-weight: 600;
+    font-style: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+.input-main {
+    display: flex;
+    justify-content: center;
+}
+.help-input ::after{
+    border: 1px solid transparent;
+
+}
+.main-button-help {
+    padding-right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.input_cont {
+    background-color: rgb(255, 255, 255);
+    padding-right: 5px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Help .help-input {
+    border: none;
+    padding: 15px 0px;
+    width: 370px;
+    font-size: 13px;
+}
+.searchbtn{
+    background-color: #AD35D9;
+border: navajowhite;
+border-radius: 100px;
+width: 40px;
+height: 40px;
+
+}
+.second-sectionHelp {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div1 {
+    height: 17vh;
+    display: flex;
+    border-radius: 8px;
+    margin: 5px;
+    align-items: center;
+    padding: 5px 15px;
+    background: white;
+}
+
+.imgicon {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+
+}
+@media only screen and (max-width: 595px) {
+ #helpcenter{
+    width: 100%;
+ }
+
+ #help-inpt {
+     width: 270px;
+}
+.Help h3{
+font-size: 18px;
+}
+.Help p{
+font-size: 14px;
+}
+.Help .firstSection {
+    margin-top: -70px;
+    margin-bottom: -40px;
+  
+}
+#text1 h1 {
+    font-weight: 700;
+    font-size: 22px;
+  
+}
+
+}

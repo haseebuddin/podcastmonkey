@@ -1,0 +1,143 @@
+/* //header */
+
+.header .menu .nav-link,
+.header .side-buttons .nav-link {
+    font-weight: 700;
+    font-size: 0.8em;
+    color: black;
+
+}
+
+.header .getStartedButton {
+    margin: 0px 0px 5px 10px !important;
+    max-width: '20em';
+    font-weight: 700;
+    font-size: 0.8em;
+    border-radius: 25px;
+    padding: 10px 20px !important;
+    border: none;
+}
+
+
+/* //footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10em;
+}
+
+footer .center_div {
+
+    display: flex;
+    justify-content: center;
+}
+
+footer .top-footer {
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    transform: scale(0.8);
+    padding: 6em 0em 2em 0em;
+}
+
+.footer-content {
+    /* transform: scale(0.8); */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+footer .bottom-footer {
+    transform: scale(0.8);
+
+    padding: 2em 120px;
+}
+
+footer .getStartedButton {
+    font-weight: 700;
+    font-size: 0.8em;
+    max-width: '20em';
+    margin-top: 30px;
+    /* margin-left: 100px; */
+
+    border-radius: 25px;
+    padding: 15px 40px!important;
+    border: none;
+}
+
+footer a {
+    color: white !important;
+    text-decoration: none;
+}
+
+footer .icons {
+    text-align: right;
+}
+
+footer.bg-dark img.ftr-logo {
+    position: absolute;
+    left: 50%;
+    top: -37px;
+
+    width: 290px;
+    transform: translate(-50%);
+}
+
+footer.bg-dark:before {
+    content: "";
+    clip-path: polygon(15% 0, 85% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    background: #8e21b6;
+    top: -37px;
+    color: white;
+    height: 78px;
+    z-index: -9;
+    width: 417px;
+    left: 50%;;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 595px) {
+    #mobfooter{
+        width: 100% !important;
+        /* overflow-x: hidden; */
+       margin-left: -0px;
+    }
+    
+    
+    
+     #footerTopmob {
+        margin-top: -120px;
+     width: 140% !important ;
+     margin-left: -100px ; 
+     
+    }
+    footer.bg-dark img.ftr-logo {
+        top: -25px !important;
+    }
+     
+    footer.bg-dark:before {
+        clip-path: polygon(15% 0, 89% 0, 100% 100%, 0% 100%) !important;
+        
+        top: -27px !important;
+        color: white !important;
+      
+        width: 390px !important;
+        left: 48% !important;
+    }
+
+    
+    } 
